@@ -1,6 +1,6 @@
 import streamlit as st
 
-
+from streamlit_option_menu import option_menu
 
 import Analysis,Data,Description,Prediction
 st.set_page_config(
