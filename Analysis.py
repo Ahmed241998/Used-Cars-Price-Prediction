@@ -70,7 +70,7 @@ def app() :
     placeholder="Select Feature...")
     fig1 = px.pie(df,names=option)
     st.plotly_chart(fig1, use_container_width=True)
-    st.subheader('Line Chart Of Price With Model Year For A Specifc Manufacturer Selection'  , divider='rainbow')
+    st.subheader('Line Chart Of Price With Model Year For A Specific Manufacturer Selection'  , divider='rainbow')
     option1 = st.selectbox(
     'Please, Select Manufacturer?',
     df['manufacturer'].unique(),
