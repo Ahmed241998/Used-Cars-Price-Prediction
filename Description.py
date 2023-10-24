@@ -117,7 +117,7 @@ def app() :
                 <p>The Drive Type of Each Car Listed in The Data. Data has The Following Car Number Of Types
                 <ul>
                 <li>4WD : Four-Wheel Drive</li>
-                <li>RWD : Front-Wheel Drive </li>
+                <li>FWD : Front-Wheel Drive </li>
                 <li>RWD : Rear-Wheel Drive </li></ul></p>
                 </li>
     <li><h4>Type</h1>
