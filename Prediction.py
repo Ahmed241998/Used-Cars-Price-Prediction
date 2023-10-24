@@ -440,7 +440,7 @@ def app() :
       st.session_state.clicked = False
     def set_clicked():
       st.session_state.clicked = True
-    st.button('Button', on_click=set_clicked)
+    st.button('Select', on_click=set_clicked)
     if st.session_state.clicked:
       type =  st.selectbox(
         'Please, Select The Type Of Car',
